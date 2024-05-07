@@ -1,0 +1,239 @@
+/* Custom CSS */
+body {
+    background-color: #f2dde6; /* Light purple background */
+}
+
+.hero-section {
+    background-image: linear-gradient(to right, #740561, #e4bede); /* Gradient background */
+    color: #fff; /* Text color */
+    padding: 50px 20px; /* Adjust padding as needed */
+    padding-bottom: 30px;
+    text-align: center; /* Center align text */
+    height: 250px; /* Set the height of the hero section */
+    font-weight: 900;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css") format ('truetype');
+}
+
+
+.hero-section h1 {
+    font-family: 'FontAwesome', sans-serif; 
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center; /* Not 'position: center' */
+}
+
+
+.hero-section p {
+    font-family: 'FontAwesome', sans-serif; 
+    font-size: 30px; /* Adjust font size of paragraph */
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
+h5,p {
+    font-family: 'FontAwesome', Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px; 
+    font-weight: 900;
+    padding-bottom: 20px;
+    
+}
+
+h5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Kristen ITC", sans-serif;
+
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.navbar {
+    background-image: linear-gradient(to right, #6b095b, #e4bede); /* Gradient from pink to light purple */
+    
+}
+
+
+.glitter-navbar {
+    background: linear-gradient(45deg, #fff, #f0f, #0ff, #f0f, #0ff, #f0f, #ff0, #0ff, #f0f, rgb(127, 232, 232), #0f0);
+    background-size: 200% 200%;
+    animation: glitter 10s ease-in-out;
+}
+
+@keyframes glitter {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+
+.glitter-navbar .nav-link {
+    color: white; /* Set the color of the navigation links to white */
+    font-size: x-large;
+    font-weight: 1000;
+    padding-inline: 50px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+
+}
+
+.toy-card {
+    border: 1px solid #ff7ae9; /* Pink border for toy cards */
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+}
+
+.toy-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.toy-image {
+    max-width: 100%;
+    height: auto;
+    max-height: fit-content;
+    transition: opacity 0.3s ease; /* Add transition for smooth animation */
+}
+
+.toy-image:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+/* buttons on images */
+.btn-like, .btn-buy {
+    background-color: #fc0ea1; /* Purple buttons */
+    color: white;
+    border: black ;
+    margin: 30px;
+    padding: 10px 20px;
+    font-family: 'FontAwesome';
+    font-weight: 1000;
+    font-size:25px;
+}
+    
+.btn-buy{
+    background-color: #0491e9; /* Purple buttons */
+
+}
+
+.btn-buy:hover{
+    background-color: #e0cfe6; /* Darker purple on hover */
+
+}
+
+.btn-like:hover {
+    background-color: #a928d4; /* Darker purple on hover */
+    color: white;
+    cursor: pointer;
+
+}
+
+.scrollbar {
+    width: 16px;
+}
+
+.scrollbar-track {
+    background: #b190b2; 
+}
+
+.scrollbar-thumb {
+    background: #400242; 
+}
+
+.scrollbar-thumb:hover {
+    background: #d6076b; 
+}
+
+/* adding footer */
+footer {
+    text-align: right; 
+    margin-top: 10px; 
+}
+
+/* copyright at bottom of each page */
+.copyright {
+    font-size: 20px; 
+    font-weight: 1000;
+    font-weight: bolder;
+    background-color: none; 
+}
+
+.copyright span {
+    font-size: 20px; 
+    vertical-align: right; 
+    
+}
+/* form for user input */
+footer {
+    background-color: #ecaee2;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+    vertical-align: left;
+}
+
+footer form button[type="submit"] {
+    background-color: rgb(14, 159, 222); 
+    color: white !important;
+    border-radius: 5%;
+    font-size: 25px;
+    border-color: rgb(196, 209, 215); ;
+    padding: 10px 10px;
+    font-family: 'FontAwesome';
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
+
+footer form button[type="submit"]:hover{
+    background:rgb(163, 214, 214)
+}
+
+/* adjusting the labels in the footer form */
+.form-labels {
+    font-family: 'FontAwesome'; 
+    font-size: 50px; 
+    font-weight: 1000; 
+    color: purple;
+    animation: forwards;
+}

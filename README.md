@@ -1,5 +1,4 @@
-# Static Website
-## TOY SHOP WEBSITE
+TOY SHOP WEBSITE
 Lucille Jordaan
 
 This project is a static toy website.
@@ -18,5 +17,7 @@ Folders:
 images
 
 Files:
-1. index.html
-2. main.css
+index.html
+main.css
+
+
