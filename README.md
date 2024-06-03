@@ -1,9 +1,10 @@
-TOY SHOP WEBSITE
+# TOY SHOP WEBSITE
 
-Lucille Jordaan
+## Welcome to Maggie's Toy Store!
 
 This project is a static toy website.
 Designed using Bootstrap, CSS and HTML.
+
 The website consists of one page, i.e. index.html.
 Styling is done, using an external main.css file.
 
